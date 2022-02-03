@@ -23,12 +23,22 @@ void setBuzzer(bool flag){
 }
 
 void pinsSetup(){
+// Motor pins setup
   pinMode(PIN_DIRECTION_LEFT, OUTPUT);
   pinMode(PIN_DIRECTION_RIGHT, OUTPUT);
   pinMode(PIN_MOTOR_PWM_LEFT, OUTPUT);
   pinMode(PIN_MOTOR_PWM_RIGHT, OUTPUT);
+
+// UltraSonic pins setup
   pinMode(SONIC_TRIG_PIN, OUTPUT);
   pinMode(SONIC_ECHO_PIN, INPUT);
+
+// Line Tracking Sensor pins setup
+  pinMode(LEFT_TRACKING_PIN, INPUT);
+  pinMode(CENTER_TRACKING_PIN, INPUT);
+  pinMode(RIGHT_TRACKING_PIN, INPUT);
+
+// turn buzzer off
   setBuzzer(false);
 }
 
