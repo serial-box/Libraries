@@ -1,3 +1,10 @@
+/*
+	serial_obstacle_avoidance.h - Library for automatic obstacle avoidance of Serial car
+	Created by Maurice Adjei, 31 January 2022
+	Company: Serial
+*/
+
+
 #include "serial_obstacle_avoidance.h"
 
 Servo servo;

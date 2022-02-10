@@ -1,3 +1,11 @@
+/*
+ 
+ CarMove.cpp - Library for autonomously controlling Serial car
+ Created by Maurice Adjei, 27 December 2021
+ Company: Serial
+
+*/
+
 #include "Arduino.h"
 #include "MoveCar.h"
 

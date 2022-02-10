@@ -26,6 +26,9 @@
 #define CENTER_TRACKING_PIN A2
 #define RIGHT_TRACKING_PIN A3
 
+// IR sensor pins
+#define IR_RECEIVER_PIN 9
+
 #define BUZZER_PIN A0
 #define BATTERY_PIN A0
 
